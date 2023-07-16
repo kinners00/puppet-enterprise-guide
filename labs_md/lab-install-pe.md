@@ -14,7 +14,7 @@ You'll perform the following steps:
 
 
 
-1. Login to your CentOS VM (Referenced in <a href="https://puppet-enterprise-guide.com/theory/pe-prequisites.html#1.-puppet-enterprise" target="_blank">PE requirements</a>).
+1. Login to your CentOS VM (Referenced in <a href="https://puppet-enterprise-guide.com/theory/pe-prequisites.html#1-puppet-enterprise" target="_blank">PE requirements</a>).
 2. If you are not logged in as the root account, elevate to root.
    ```
    sudo -i
