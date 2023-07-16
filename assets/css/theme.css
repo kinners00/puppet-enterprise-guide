@@ -224,6 +224,10 @@ img {
   border-style: none;
 }
 
+img.mr-2 {
+  width: 240px;
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;
@@ -7558,7 +7562,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #222629;
+  background-color: #1f211f;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -7598,7 +7602,7 @@ button.bg-black:focus {
 }
 
 .bg-black-soft {
-  background-color: #04080a;
+  background-color: black;
 }
 
 a.bg-black-soft:hover, a.bg-black-soft:focus,
@@ -9463,10 +9467,6 @@ button.bg-black-soft:focus {
 .pl-2,
 .px-2 {
   padding-left: 0.5rem !important;
-}
-
-.p-3 {
-  padding: 1rem !important;
 }
 
 .pt-3,
@@ -13532,7 +13532,7 @@ font-weight: 600;
 
 .progress-bar {
   height: 6px;
-  background: #006666;
+  background: #9acc33;
   width: 0%;
 }
 

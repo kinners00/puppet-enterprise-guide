@@ -393,13 +393,17 @@ h4:hover .duik-anchorjs-link {
 
 .duik-sidebar--dark .duik-sidebar__link.active {
   margin-top: -1px;
-  color: #ffae1a;
+  color: #9acd32;
   border-radius: 3px;
   border-color: #33393d;
   background-color: #33393d;
   margin-left: -0.2em;
   padding-left: 1rem;
   text-decoration-style: solid;
+}
+
+.mr2 {
+width: 236px
 }
 
 
@@ -412,9 +416,10 @@ h4:hover .duik-anchorjs-link {
 
 .duik-sidebar__link.sub[aria-expanded="true"] {
   margin-left: -1.81em;
+  margin-right:-0.9em;
   padding-left: 1.5rem;
   text-decoration-style: solid;
-  color:  #ffae1a;
+  color:  #9acd32;
   font-weight: 550;
 }
 
@@ -439,9 +444,8 @@ h4:hover .duik-anchorjs-link {
 display: flex;
 }
 
-
 .duik-sidebar--dark .duik-sidebar__link:hover {
-  color: #ffad1aff;
+  color: #9acd32;
 }
 
 /* Page Nav */
