@@ -7,13 +7,13 @@
 - [Overview](#overview)
 - [Prequisities](#prequisities)
 - [Requirements](#requirements)
-    - [Puppet Enterprise](#puppet-enterprise)
+    - [Puppet Enterprise](#1.-puppet-enterprise)
       - [CPU, memory and storage](#cpu-memory-and-storage)
       - [Operating system](#operating-system)
       - [Networking](#networking)
-    - [Version Control Requirements](#version-control-requirements)
+    - [Version Control Requirements](#2.-version-control-requirements)
       - [Gitlab for Lab usage](#gitlab-for-lab-usage)
-    - [Lab node Requirements](#lab-node-requirements)
+    - [Lab node Requirements](#3.-lab-node-requirements)
       - [Operating system](#operating-system-1)
       - [CPU, memory and storage](#cpu-memory-and-storage-1)
       - [Networking](#networking-1)
@@ -35,8 +35,7 @@ You’ll need a few things to complete the PE guide labs:
 - 1x VM that can be managed by Puppet Enterprise for lab purposes.
 
 # Requirements
-
-### Puppet Enterprise
+## 1. Puppet Enterprise 
 
 In its simplest form, you’ll only need 1 server for Puppet Enterprise. This is called a <a href="https://puppet.com/docs/pe/latest/choosing_an_architecture.html#standard-installation" target="_blank">Standard installation</a>. Puppet refers to the central Puppet Enterprise server as the "Primary Puppet Server".
 
@@ -80,7 +79,7 @@ Please ensure any firewalls allow these types of communication.
 >  Replica configuration is not part of this guide.
 
 
-### Version Control Requirements
+## 2. Version Control Requirements
 In the <a href="https://kinners00.github.io/puppet-enterprise-guide/labs/lab-set-up-the-control-repo.html" target="_blank">Set up the control repo lab</a> later in the guide, you’ll create a central repository for all your configuration and automation content. In Puppet jargon, this is called a control repo. To house this repository, you should use a version control system such as Gitlab, Github, BitBucket or Azure DevOps. 
 
 > The guide will assume you are using Gitlab Community Edition server
@@ -97,7 +96,7 @@ To set up:
 * Spin up a VM running CentOS 
 * Perform steps 1-3 on <a href="https://about.gitlab.com/install/?version=ce#centos-7" target="_blank">this page</a> (for CentOS7) or <a href="https://about.gitlab.com/install/?version=ce#centos-8" target="_blank">this page</a> (for CentOS 8) to install Gitlab.
 
-### Lab node Requirements
+## 3. Lab node Requirements
 
 #### Operating system
 
