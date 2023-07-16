@@ -44,7 +44,7 @@ One of the benefits of Puppet Enterprise is that it's really flexible. This allo
 
 No. This guide should be used in tandem with the official Puppet docs. There is a lot of additional information in the Puppet docs that you'll _not_ get in this guide, given it's scope and purpose, however you'll find that there are links on most pages within the guide that refer directly to the official Puppet docs, where appropriate.
 
-The Puppet Enterprise guide is based off the latest STS (short term support) release of Puppet Enterprise PE 2021.X, however, if you're on the most recent LTS (long term support), 2019.8.X, the majority of the content in this guide will still apply. 
+The Puppet Enterprise guide is based off the latest STS (short term support) release of Puppet Enterprise PE 2023.X, however, if you're on the most recent LTS (long term support), 2021.7.X, the majority of the content in this guide will still apply. 
 
 The official PE docs include versioned docs i.e. docs for different Puppet Enterprise releases, which we'd recommend you follow, particulary for upgrades or large complex puppet installations.
 
@@ -59,32 +59,7 @@ The labs are a great way to get to know Puppet Enterprise more intimately in a l
 These pages contain topics such as: feature and capability overviews, benefits, usecases, how it works and more. All topic sections begin with at least 1 reference/theory page. Each topic will include some basic "how to" information.
 
 ### Example Walkthroughs<a href="#example-walkthroughs" aria-hidden="true"></a>
-These are step-by-step guided walkthroughs, from creation to end state. These walkthroughs show the process behind creating a configuration, desired state or adhoc automation - rather than only providing an example configuration. Task and Plan walkthroughs include Windows and Linux examples, however Windows examples for other walkthroughs will be provided in the future. See [Roadmap](#roadmap).
-
-
-# Roadmap<a href="#roadmap" aria-hidden="true"></a>
-
-* Add additional topics:
-  * Encryption with EYAML
-  * Creating Custom facts
-  * Using Templates
-  * Creating Modules
-  * Leveraging PE API's
-
-
-- Video guidance for labs 
-
-* Add more content to <a href="https://github.com/kinners00/puppet-examples/tree/production/examples/puppet-code" target="_blank">Puppet code</a> and <a href="https://github.com/kinners00/puppet-examples/tree/production/examples/plans" target="_blank">Plan</a> examples.
-
-- Windows based examples for example walkthroughs:
-    - Desired state
-    - Forge module
-    - Roles and profiles
-    - Hiera 
-
-
-
-
+These are step-by-step guided walkthroughs, from creation to end state. These walkthroughs show the process behind creating a configuration, desired state or adhoc automation - rather than only providing an example configuration. Task and Plan walkthroughs include Windows and Linux examples.
 
 # Who wrote this guide?<a href="#who-wrote-this-guide" aria-hidden="true"></a>
 
