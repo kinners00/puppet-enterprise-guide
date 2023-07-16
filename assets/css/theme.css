@@ -224,6 +224,10 @@ img {
   border-style: none;
 }
 
+img.mr-2 {
+  width: 240px;
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;
@@ -9463,10 +9467,6 @@ button.bg-black-soft:focus {
 .pl-2,
 .px-2 {
   padding-left: 0.5rem !important;
-}
-
-.p-3 {
-  padding: 1rem !important;
 }
 
 .pt-3,
