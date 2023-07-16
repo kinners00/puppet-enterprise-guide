@@ -14,7 +14,7 @@ You'll perform the following steps:
 
 
 
-1. Login to your CentOS VM, as described in the <span style="text-decoration:underline;">System Requirements</span> section.
+1. Login to your CentOS VM (CentOS VM referenced from <a href="https://puppet.com/docs/bolt/latest/plan_functions.html" target="_blank">PE requirements</a>). in the  section of .
 2. If you are not logged in as the root account, elevate to root.
    ```
    sudo -i
