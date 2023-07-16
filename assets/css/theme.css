@@ -7558,7 +7558,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #222629;
+  background-color: #1f211f;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -13532,7 +13532,7 @@ font-weight: 600;
 
 .progress-bar {
   height: 6px;
-  background: #006666;
+  background: #1f211f;
   width: 0%;
 }
 
