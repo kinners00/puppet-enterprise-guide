@@ -7602,7 +7602,7 @@ button.bg-black:focus {
 }
 
 .bg-black-soft {
-  background-color: #04080a;
+  background-color: black;
 }
 
 a.bg-black-soft:hover, a.bg-black-soft:focus,
